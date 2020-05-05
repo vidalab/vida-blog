@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Vida Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Vida Team.`,
+      summary: `We want to make complex data visualization and analysis more accessible`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `Blog to discuss data visualization and analysis using Vida software`,
+    siteUrl: `https://blog.vida.io/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `vidatalk`,
     },
   },
   plugins: [
