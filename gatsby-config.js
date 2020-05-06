@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Vida Blog`,
     author: {
-      name: `Vida Team.`,
+      name: `Vida Team`,
       summary: `We want to make complex data visualization and analysis more accessible`,
     },
     description: `Blog to discuss data visualization and analysis using Vida software`,

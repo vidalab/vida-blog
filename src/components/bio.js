@@ -57,11 +57,11 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author.name}</strong>. {author.summary}.
+        Written by <strong>{author.name}</strong>. {author.summary}. Go to
         {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow Vida Team on Twitter
-        </a>
+        <a href={`https://vida.io`}>
+          vida.io
+        </a>.
       </p>
     </div>
   )

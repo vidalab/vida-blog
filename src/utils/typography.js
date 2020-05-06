@@ -1,17 +1,16 @@
 import Typography from "typography"
-import Wordpress2016 from "typography-theme-wordpress-2016"
 
-Wordpress2016.overrideThemeStyles = () => {
-  return {
-    "a.gatsby-resp-image-link": {
-      boxShadow: `none`,
+const typography = new Typography({
+  overrideStyles: ({ rhythm }, options, styles) => ({
+    body: {
+      fontFamily: '"system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "Noto Sans", "sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"'
     },
-  }
-}
-
-delete Wordpress2016.googleFonts
-
-const typography = new Typography(Wordpress2016)
+    a: {
+      textDecoration: "inherit",
+      color: "#4299e1"
+    }
+  })
+})
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== `production`) {
