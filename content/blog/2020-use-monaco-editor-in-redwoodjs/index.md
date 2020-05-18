@@ -6,7 +6,7 @@ description: How we integrate Monaco Editor to Vida application with webpack plu
 
 *Vida Team Mission: Make data science accessible across the web*
 
-We're moving to the next phase of Vida development. We want to replace the default browser textarea editor by something more eye catchy. We decided to go with [monaco-editor](https://github.com/microsoft/monaco-editor). In this article, we show the steps to integrate monaco-editor component to redwoodjs. It makes use of redwoodjs's webpack plugins.
+We're getting to the next phase of Vida development. We want to replace the default browser textarea editor by something more eye catchy. We decided to go with [monaco-editor](https://github.com/microsoft/monaco-editor). In this article, we show the steps to integrate monaco-editor component to redwoodjs. It makes use of redwoodjs's webpack plugins.
 
 ### Create redwoodjs application
 
@@ -94,3 +94,7 @@ module.exports = (config) => {
 ```
 
 After restarting Redwoodjs dev server, we should see json language syntax highlight.
+
+Here's the code repository for this example: https://github.com/vidalab/redwood-monaco
+
+Happy Coding!
