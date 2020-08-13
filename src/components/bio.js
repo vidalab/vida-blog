@@ -57,11 +57,15 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author.name}</strong>. {author.summary}. Go to
+        Written by <strong>{author.name}</strong>. {author.summary}.
+        <br/>
+        For more information, see
         {` `}
         <a href={`https://vida.io`}>
           vida.io
         </a>.
+        <br/>
+        Contact us at <a href="mailto:contact@vida.io">contact@vida.io</a>.
       </p>
     </div>
   )
